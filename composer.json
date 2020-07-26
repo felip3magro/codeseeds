@@ -1,0 +1,22 @@
+{
+    "name": "felip3magro/_blueprint",
+    "description": "O objetivo deste projeto é criar a base (blueprint) para novos code seeds (sementes de código).",
+    "type": "library",
+    "require-dev": {
+        "phpunit/phpunit": "9.2.6"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Felipe Magro",
+            "email": "felip3magro@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "_CodeSeedName\\" : "src/_CodeSeedName"
+        }
+    },
+    "require": {}
+}
