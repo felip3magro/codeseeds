@@ -14,7 +14,7 @@
     </testsuites>
     <filter>
         <whitelist processUncoveredFilesFromWhitelist="true">
-            <directory suffix=".php">./src/_CodeSeedName</directory>
+            <directory suffix=".php">./src/CodeSeed</directory>
         </whitelist>
     </filter>
     <logging>

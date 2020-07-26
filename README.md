@@ -1,7 +1,24 @@
-# Bem-vindo(a) ao Blueprint do CodeSeeds
+# CodeSeed::CPF_CNPJ
 
-O objetivo deste projeto é criar a base (blueprint) para novos code seeds (sementes de código).
+Cpf e Cnpj são implementações de DocumentInterface.
 
-## Como criar seu primeiro CodeSeed
+## Novo CPF
 
-... to be continued.
+```php
+$cpf = DocumentFactory::create('informe o cpf');
+```
+
+## Novo CNPJ
+
+```php
+$cnpj = DocumentFactory::create('informe o cnpj');
+```
+
+## DocumentInterface
+
+> Retorna apenas os dígitos do documento
+
+number(): string
+
+> Retorna o documento formatado
+formatted(): string

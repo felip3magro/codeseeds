@@ -1,6 +1,6 @@
 {
-    "name": "felip3magro/_blueprint",
-    "description": "O objetivo deste projeto é criar a base (blueprint) para novos code seeds (sementes de código).",
+    "name": "felip3magro/cpf_cnpj",
+    "description": "CodeSeed para criação e manipulação de CPFs e CNPJs",
     "type": "library",
     "require-dev": {
         "phpunit/phpunit": "9.2.6"
@@ -15,7 +15,7 @@
     "minimum-stability": "dev",
     "autoload": {
         "psr-4": {
-            "_CodeSeedName\\" : "src/_CodeSeedName"
+            "CodeSeed\\" : "src/CodeSeed"
         }
     },
     "require": {}
