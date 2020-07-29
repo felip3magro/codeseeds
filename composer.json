@@ -1,6 +1,6 @@
 {
-    "name": "felip3magro/cpf_cnpj",
-    "description": "CodeSeed para criação e manipulação de CPFs e CNPJs",
+    "name": "felip3magro/codeseeds",
+    "description": "CodeSeeds é um projeto que visa criar objetos simples que poderão ser utilizados em um projeto",
     "type": "library",
     "require-dev": {
         "phpunit/phpunit": "9.2.6"

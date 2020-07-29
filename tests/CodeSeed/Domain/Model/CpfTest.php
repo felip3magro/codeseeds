@@ -1,5 +1,7 @@
 <?php
 
+namespace Tests\CodeSeed\Domain\Model;
+
 use CodeSeed\Domain\Model\Cpf;
 use PHPUnit\Framework\TestCase;
 
